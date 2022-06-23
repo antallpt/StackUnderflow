@@ -16,7 +16,7 @@ struct QuestionView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
                 .fill(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
-            .frame(width: 335, height: 140)
+            .frame(width: 335, height: 120)
             .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:4, x:0, y:4)
             
             VStack(alignment: .leading) {
